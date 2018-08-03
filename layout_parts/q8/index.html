@@ -31,26 +31,26 @@
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="btn s__btn"><a href="#">common</a></div>
+            <div class="btn s__btn"><a href="#">error</a></div>
+            <div class="btn s__btn cursor">disabled</div>
+            <div class="btn s__btn"><a last href="#">shadow</a></div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="btn m__btn"><a href="#">common</a></div>
+            <div class="btn m__btn"><a href="#">error</a></div>
+            <div class="btn m__btn cursor">disabled</div>
+            <div class="btn m__btn"><a last href="#">shadow</a></div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="btn l__btn"><a href="#">common</a></div>
+            <div class="btn l__btn"><a href="#">error</a></div>
+            <div class="btn l__btn cursor">disabled</div>
+            <div class="btn l__btn"><a last href="#">shadow</a></div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -98,7 +98,55 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <form class="q8-2__form__block">
+              <div class="q8-2__form__title">
+                <p class="q8-2__form__title__label">Form Exercise</p>
+              </div>
+              <div class="cleafix">
+                <div class="q8-2__form__main">
+                  <div class="q8-2__form__main__info">
+                    <div class="cleafix info__profile">
+                        <div class="profile__title">名前<span class="important__form">*</span></div>
+                          <input type="text" name="name" class="profile__text" required>
+                    </div>
+                    <div class="cleafix info__profile">
+                        <div class="profile__title">性別</div>
+                        <div class="gender__block">
+                          <label><input type="radio" name="gender" value="male">男性</label>
+                          <label><input type="radio" name="gender" value="famale">女性</label>
+                        </div>
+                    </div>
+                    <div class="cleafix info__profile">
+                      <div class="profile__title">出身</div>
+                          <div><select name=hometwon class=profile__text>
+                            <option value="">東京</option>
+                            <option value="埼玉">埼玉</option>
+                            <option value="千葉">千葉</option>
+                            <option value="神奈川">神奈川</option>
+                          </select></div>
+                    </div>
+                    <div class="cleafix info__profile">
+                        <div class="profile__title">Eメール<span class="important__form">*</span></div>
+                          <p><input type="email" name="email" placeholder="ex)hoge@gmail.com" class="profile__text" required></p>
+                    </div>
+                    <div class="cleafix info__profile">
+                        <div class="profile__title">電話番号</div>
+                          <p><input type="text" name="tel" placeholder="ex)08012345678" class=profile__text></p>
+                    </div>
+                    <div class="age__check">
+                      <label><input type="checkbox" name=age value="true">20歳以上です</label>
+                    </div>
+                  </div>
+                  <div class="q8-2__form__main__submit">
+                    <button class="submit__button" type="submit"><a>送信</a></button>
+                  </div>
+                </div>
+                <div class="q8-2__form__secondary">
+                  <textarea class="q8-2__form__secondary__textarea" name="any" placeholder="何かあれば入力して下さい。"></textarea>
+                </div>
+                </div>
+              </div>
+            </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>

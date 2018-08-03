@@ -1,5 +1,180 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.cleafix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a[last] {
+  color: #222;
+}
+
+.cursor {
+  cursor: default;
+}
+
+.btn {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.s__btn {
+  line-height: 26px;
+  padding:0 15px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.m__btn {
+  line-height: 32px;
+  padding:0 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.l__btn {
+  line-height: 38px;
+  padding:0 25px;
+  border-radius: 7px;
+  font-size: 24px;
+}
+
+.btn:nth-child(2) {
+background-color: #00bcd4;
+color: #ffffff;
+margin-left: 0;
+}
+
+.btn:nth-child(3) {
+background-color: #ff4081;
+color: #ffffff;
+}
+
+.btn:nth-child(4) {
+background-color: #e5e5e5;
+color: #ffffff;
+}
+
+.btn:nth-child(5) {
+  box-shadow: 0 1px 6px rgba(0,0,0,.12), 0 1px 4px rgba(0,0,0,.12);
+  color: #222;
+}
+
+.q8-2__form__block {
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
+
+.q8-2__form__title {
+  position: relative;
+  margin-bottom: 20px;
+  height: 24px;
+}
+
+.q8-2__form__title__label {
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+}
+
+.q8-2__form__title:before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
+}
+
+.q8-2__form__main {
+  width: 300px;
+  float: left;
+}
+
+.q8-2__form__main__info {
+  margin-bottom: 20px;
+}
+
+.info__profile {
+  margin-top: 20px;
+}
+
+.info__profile:first-child {
+  margin-top: 0;
+}
+
+.profile__title {
+  line-height: 25px;
+  width: 100px;
+  float: left;
+  text-align: right;
+}
+
+.profile__text {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+  width: 180px;
+  padding: 5px;
+  float: right;
+}
+
+.gender__block {
+  width: 180px;
+  float: right;
+}
+
+.important__form {
+  color: red;
+}
+
+.age__check {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.q8-2__form__main__submit {
+  text-align: right;
+}
+
+.submit__button {
+  right: 0;
+  bottom: 0;
+  line-height: 26px;
+  padding:0 10px;
+  border-radius: 3px;
+  font-size: 16px;
+  display: inline-block;
+  background-color: #00bcd4;
+  color: #ffffff;
+}
+
+.q8-2__form__secondary {
+  width: 380px;
+  float: right;
+}
+
+.q8-2__form__secondary__textarea {
+  box-sizing: border-box;
+  width: 380px;
+  height: 203px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  resize: none;
+  border: none;
+}
 
 /* 回答はここに書いてね */

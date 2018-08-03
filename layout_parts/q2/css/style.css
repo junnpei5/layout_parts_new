@@ -1,5 +1,35 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.cleafix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.outer {
+  width: 940px;
+  background-color: #eff3f4;
+  padding: 20px;
+}
+
+.icon {
+  margin-bottom: 10px;
+}
+
+.header__left {
+  float: left;
+  margin-right: 20px;
+}
+
+.footer__right {
+  float: right;
+  margin-left: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 22px;
+}
 
 /* 回答はここに書いてね */

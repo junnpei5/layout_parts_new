@@ -3,3 +3,47 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.block {
+  margin: auto;
+  table-layout:fixed;
+  width: 100%;
+}
+
+.list {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.list:first-child {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #2244aa;
+}
+
+.list:last-child {
+  border-top: dashed;
+  border-top-color: #000;
+  border-top-width: 2px;
+}
+
+.list:nth-child(2n+3) {
+  background-color: #ecf1f2;
+}
+
+.day {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #2244aa;
+  border: solid;
+  border-width: 1px;
+  border-color: #dedede;
+}
+
+.cell {
+  padding: 10px;
+  border: solid;
+  border-width: 1px;
+  border-color: #dedede;
+}
