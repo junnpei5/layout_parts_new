@@ -6,30 +6,29 @@
   display: block;
   clear: both;
 }
-/* 回答はここに書いてね */
-.cleafix{
+
+.outer {
+  margin: 0 auto;
   width: 940px;
+  box-sizing: border-box;
+  padding: 20px;
   background-color: #eff3f4;
 }
 
-.text_box{
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-bottom: 20px;
-  margin-right: 10px;
+.inner {
+  margin-left: 20px;
   width: 270px;
   background-color: #3274ae;
   float: left;
 }
 
-.text_box:first-child {
-  margin-left: 20px;
+.inner:first-child {
+  margin-left: 0px;
 }
 
-.text{
+.text {
   margin: 20px;
   padding: 20px;
-  box-sizing: border-box;
   border: solid;
   border-width: 10px;
   border-color: #022336;
@@ -37,3 +36,5 @@
   font-size: 16px;
   line-height: 16px;
 }
+
+/* 回答はここに書いてね */

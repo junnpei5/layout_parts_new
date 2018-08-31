@@ -8,6 +8,7 @@
 }
 
 .outer {
+  margin: 0 auto;
   width: 940px;
   background-color: #eff3f4;
   padding: 20px;

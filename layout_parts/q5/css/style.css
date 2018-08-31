@@ -3,14 +3,8 @@
 /* 回答はここに書いてね */
 
 .outer {
-  margin: auto;
-  margin-top: 20px;
-  width: 500px;
-  height: 500px;
+  margin: 0 auto;
   background-color: #ECF1F2;
-}
-
-.inner {
   width: 500px;
   height: 500px;
   box-sizing: border-box;
@@ -27,71 +21,71 @@
   position: absolute;
 }
 
-.cell:nth-child(1) {
+.number8 {
   position: relative;
   background-color: #de70cf;
   left: 120px;
   top: 120px;
-  z-index: 8
+  z-index: 8;
 }
 
-.cell:nth-child(2) {
+.number5 {
   background-color: #9fd6d2;
   left: 200px;
   top: 360px;
-  z-index: 5
+  z-index: 5;
 }
 
-.cell:nth-child(3) {
+.number1 {
   background-color: #ffefd3;
   left: 200px;
   top: 40px;
-  z-index: 1
+  z-index: 1;
 }
 
-.cell:nth-child(4) {
+.number7 {
   background-color: #deae70;
   left: 40px;
   top: 200px;
-  z-index: 7
+  z-index: 7;
 }
 
-.cell:nth-child(5) {
+.number4 {
   background-color: #8d7a5e;
   left: 280px;
   top: 280px;
-  z-index: 4
+  z-index: 4;
 }
 
-.cell:nth-child(6) {
+.number6 {
   background-color: #fffee4;
   left: 120px;
   top: 280px;
-  z-index: 6
+  z-index: 6;
 }
 
-.cell:nth-child(7) {
+.number2 {
   background-color: #7084de;
   left: 280px;
   top: 120px;
-  z-index: 2
+  z-index: 2;
 }
 
-.cell:nth-child(8) {
+.number3 {
   background-color: #d0ecea;
   left: 360px;
   top: 200px;
-  z-index: 3
+  z-index: 3;
 }
 
-.cell:nth-child(9) {
+.number9 {
   background-color: #2b69a3;
   position: fixed;
   top: 10px;
   left: 10px;
 }
 
-.cell:nth-child(1):before {
+.number8:before {
   content: "";
   width: 20px;
   height: 20px;
@@ -99,7 +93,7 @@
   right: 0;
   top: 0;
   background-color: #ffefd3;
-  z-index: 9
+  z-index: 9;
 }
 
 /* 回答はここに書いてね */

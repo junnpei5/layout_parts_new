@@ -18,13 +18,9 @@
   left: 40px;
   width: 0;
   height: 0;
-  border-style: solid;
-  border-top-width: 25px;
-  border-top-color: #222;
-  border-right-width: 25px;
-  border-right-color: transparent;
-  border-left-width: 25px;
-  border-left-color: transparent;
+  border-top: 25px solid #222;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
   border-bottom: 0;
 }
 
@@ -35,13 +31,9 @@
   left: 45px;
   width: 0;
   height: 0;
-  border-style: solid;
-  border-top-width: 20px;
-  border-top-color: #fff;
-  border-right-width: 20px;
-  border-right-color: transparent;
-  border-left-width: 20px;
-  border-left-color: transparent;
+  border-top: 20px solid #fff;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
   border-bottom: 0;
 }
 

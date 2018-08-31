@@ -112,13 +112,17 @@
                     <div class="cleafix info__profile">
                         <div class="profile__title">性別</div>
                         <div class="gender__block">
-                          <label><input type="radio" name="gender" value="male">男性</label>
-                          <label><input type="radio" name="gender" value="famale">女性</label>
+                          <label><input class="q8__radio__btn" type="radio" name="gender" value="male">
+                          <span class="q8__radio__text">男性</span>
+                        </label>
+                          <label><input class="q8__radio__btn" type="radio" name="gender" value="famale">
+                          <span class="q8__radio__text">女性</span>
+                        </label>
                         </div>
                     </div>
                     <div class="cleafix info__profile">
                       <div class="profile__title">出身</div>
-                          <div><select name=hometwon class=profile__text>
+                          <div class=form__hometwon><select name="hometwon" class="profile__select">
                             <option value="">東京</option>
                             <option value="埼玉">埼玉</option>
                             <option value="千葉">千葉</option>
@@ -131,10 +135,11 @@
                     </div>
                     <div class="cleafix info__profile">
                         <div class="profile__title">電話番号</div>
-                          <p><input type="text" name="tel" placeholder="ex)08012345678" class=profile__text></p>
+                          <p><input type="text" name="tel" placeholder="ex)08012345678" class="profile__text"></p>
                     </div>
                     <div class="age__check">
-                      <label><input type="checkbox" name=age value="true">20歳以上です</label>
+                      <input type="checkbox" name=age value="true" class="age__checkbox" id="age__checkbox__btn">
+                      <label for="age__checkbox__btn" class="age__checkbox__text">20歳以上です</label>
                     </div>
                   </div>
                   <div class="q8-2__form__main__submit">

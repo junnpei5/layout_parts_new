@@ -122,17 +122,90 @@ color: #ffffff;
 }
 
 .profile__text {
+  outline: none;
   box-sizing: border-box;
   border: none;
   border-radius: 3px;
   width: 180px;
   padding: 5px;
   float: right;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.profile__select {
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+  width: 180px;
+  padding: 5px;
+  float: right;
+  font-size: 12px;
+  line-height: 12px;
+  -webkit-appearance: none;
+  cursor: pointer;
 }
 
 .gender__block {
   width: 180px;
   float: right;
+}
+
+.q8__radio__btn {
+  display: none;
+}
+
+.q8__radio__text {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 3px 3px 3px 20px;
+}
+
+.q8__radio__text:before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  border-radius: 50%;
+  left: 0;
+  border: 1px solid #ccc;
+}
+
+.q8__radio__text:after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  left: 4px;
+  top: 7px;
+  opacity: 0;
+}
+
+.form__hometwon {
+  position: relative;
+}
+
+.form__hometwon:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  pointer-events: none;
+}
+
+input[type=radio]:checked + .q8__radio__text:after {
+  opacity: 1;
 }
 
 .important__form {
@@ -142,6 +215,41 @@ color: #ffffff;
 .age__check {
   margin-top: 20px;
   text-align: right;
+}
+
+.age__checkbox {
+  display: none;
+}
+
+.age__checkbox__text {
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+
+.age__checkbox__text:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.age__checkbox:checked + .age__checkbox__text:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
 }
 
 .q8-2__form__main__submit {
@@ -175,6 +283,14 @@ color: #ffffff;
   font-size: 12px;
   resize: none;
   border: none;
+  outline: none;
 }
 
+.q8-2__form__secondary__textarea:focus {
+  box-shadow:  0 0 7px #00BCD4;
+}
+
+.profile__text:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
 /* 回答はここに書いてね */

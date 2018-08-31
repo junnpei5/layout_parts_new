@@ -17,6 +17,16 @@
   transition: 0.5s;
 }
 
+.q9-1__mask__area {
+  position: absolute;
+  opacity: 0;
+  width: 500px;
+  height: 336px;
+  transition: 0.5s;
+  bottom: -200px;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,8));
+}
+
 .q9-1__mask__text {
   position: absolute;
   box-sizing: border-box;
@@ -29,7 +39,6 @@
   padding: 20px;
   transition: 0.5s;
   bottom: -200px;
-  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,8));
 }
 
 .q9-1__inner:hover img {
@@ -38,7 +47,13 @@
 
 .q9-1__inner:hover .q9-1__mask__text {
   opacity: 1;
-  bottom: 20px;
+  bottom: 0;
+  padding-bottom: 20px;
+}
+
+.q9-1__inner:hover .q9-1__mask__area {
+  opacity: 1;
+  bottom: 0;
   padding-bottom: 20px;
 }
 
