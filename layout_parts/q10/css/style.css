@@ -2,13 +2,11 @@
 
 /* 回答はここに書いてね */
 .balloon {
-  margin: auto;
+  margin: 0 auto;
   position: relative;
   width: 500px;
   border-radius: 30px;
-  border-width: 5px;
-  border-color: #222;
-  border-style: solid;
+  border: 5px solid #222;
 }
 
 .balloon:before {
@@ -21,7 +19,6 @@
   border-top: 25px solid #222;
   border-right: 25px solid transparent;
   border-left: 25px solid transparent;
-  border-bottom: 0;
 }
 
 .balloon:after {
@@ -34,7 +31,6 @@
   border-top: 20px solid #fff;
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
-  border-bottom: 0;
 }
 
 .balloon__text {

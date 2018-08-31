@@ -17,6 +17,8 @@
 
 .inner {
   margin-left: 20px;
+  padding: 20px;
+  box-sizing: border-box;
   width: 270px;
   background-color: #3274ae;
   float: left;
@@ -27,11 +29,8 @@
 }
 
 .text {
-  margin: 20px;
   padding: 20px;
-  border: solid;
-  border-width: 10px;
-  border-color: #022336;
+  border: 10px solid #022336;
   background-color: #eaf4ff;
   font-size: 16px;
   line-height: 16px;

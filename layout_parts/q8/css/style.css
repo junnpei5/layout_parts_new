@@ -225,6 +225,7 @@ input[type=radio]:checked + .q8__radio__text:after {
   position: relative;
   display: inline-block;
   padding-left: 24px;
+  cursor: pointer;
 }
 
 .age__checkbox__text:before {
@@ -266,6 +267,14 @@ input[type=radio]:checked + .q8__radio__text:after {
   display: inline-block;
   background-color: #00bcd4;
   color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.submit__button:active {
+  color: #00bcd4;
+  background-color: #ffffff;
 }
 
 .q8-2__form__secondary {

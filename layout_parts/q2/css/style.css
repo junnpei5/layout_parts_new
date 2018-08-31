@@ -18,19 +18,18 @@
   margin-bottom: 10px;
 }
 
-.header__left {
+.img__left {
   float: left;
   margin-right: 20px;
 }
 
-.footer__right {
+.img__right {
   float: right;
   margin-left: 20px;
 }
 
-p {
+.text {
   font-size: 18px;
   line-height: 22px;
 }
-
 /* 回答はここに書いてね */
